@@ -9,6 +9,8 @@ cursor = connection.cursor()
 nome = input("Nome do Filme:\n")
 ano = int(input("Ano de lançamento:\n"))
 score = float(input("Nota do Filme:\n"))
+
+executemany para um lote e só execute para um unico registro
 """
 
 movielist = [
